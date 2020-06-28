@@ -1,0 +1,141 @@
+
+Admin@DESKTOP-KGPONRG MINGW64 ~
+$ cd
+
+Admin@DESKTOP-KGPONRG MINGW64 ~
+$ cd/c
+bash: cd/c: No such file or directory
+
+Admin@DESKTOP-KGPONRG MINGW64 ~
+$ cd /c
+
+Admin@DESKTOP-KGPONRG MINGW64 /c
+$ ls
+'$GetCurrent'/                      PerfLogs/
+'$Recycle.Bin'/                    'Program Files'/
+ AdwCleaner/                       'Program Files (x86)'/
+ bootmgr                            ProgramData/
+ BOOTNXT                            Python27/
+ Config.Msi/                        Recovery/
+'Documents and Settings'@           swapfile.sys
+ Git/                               SWSetup/
+ hiberfil.sys                      'System Volume Information'/
+ HP_LaserJet_Pro_M402-M403_n-dne/   SysWOW64/
+ inetpub/                           Users/
+ Intel/                             Windows/
+ pagefile.sys                       Windows10Upgrade/
+
+Admin@DESKTOP-KGPONRG MINGW64 /c
+$ cd /Git
+bash: cd: /Git: No such file or directory
+
+Admin@DESKTOP-KGPONRG MINGW64 /c
+$ cd /Git
+bash: cd: /Git: No such file or directory
+
+Admin@DESKTOP-KGPONRG MINGW64 /c
+$ cd git/
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git
+$ ls
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git
+$ git config --global user.name "warintin"
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git
+$ git config --global user.email aakinshipo@unilag.edu.ng.
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git
+$ git clone https://github.com/warintin/R-scripts-me.git
+Cloning into 'R-scripts-me'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 615 bytes | 55.00 KiB/s, done.
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git
+$ ls
+R-scripts-me/
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git
+$ cd Rscriptme
+bash: cd: Rscriptme: No such file or directory
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git
+$ cd Rscriptsme
+bash: cd: Rscriptsme: No such file or directory
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git
+$ cd Rscriptsme/
+bash: cd: Rscriptsme/: No such file or directory
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git
+$ cd R-script-me/
+bash: cd: R-script-me/: No such file or directory
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git
+$ cd R-scripts-me/
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$ ls
+README.md
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$ ls
+R1.txt  README.md
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$ git add R1
+fatal: pathspec 'R1' did not match any files
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$ git add R1.txt
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   R1.txt
+
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$ git commit -m "first commit" R1.txt
+[master 08fdaf5] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 R1.txt
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/warintin/R-scripts-me.git/'
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$ $ git push -u origin master
+bash: $: command not found
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$ git commit -m "first commit" R1.txt
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 291 bytes | 291.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/warintin/R-scripts-me.git
+   5059753..08fdaf5  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
+$
