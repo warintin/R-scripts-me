@@ -139,3 +139,5 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 Admin@DESKTOP-KGPONRG MINGW64 /c/git/R-scripts-me (master)
 $
+# I can make changes to this text file then re push it back to the github. just make changes and then get statutus, commit and push
+
